@@ -6,7 +6,7 @@ const routes = require("./routes");
 const cwd = process.cwd();
 
 const PORT = process.env.PORT || 3001;
-
+const app = express();
 
 // Middleware
 app.use(express.urlencoded({ extended: true }));

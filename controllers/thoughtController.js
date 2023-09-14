@@ -131,4 +131,3 @@ const thoughtController = {
 };
 
 // Exports
-module.exports = thoughtController;
